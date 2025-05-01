@@ -37,5 +37,6 @@ document.getElementById('btn').onclick = function() {
     const randomMerc = shuffledMercs[0]; // Tomamos el primer elemento después de mezclar
     if (audioMap[randomMerc]) {
         audioMap[randomMerc].play();
+        console.log('Spy!')
     }
 };
